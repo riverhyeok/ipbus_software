@@ -12,3 +12,4 @@ The file used for data analysis is:
 
 ## Reference
 - [ETROC2 Reference Manual 0.41](https://indico.cern.ch/event/1288660/contributions/5415154/attachments/2651263/4590830/ETROC2_Reference_Manual%200.41.pdf)
+- [ipbus](https://ipbus.web.cern.ch/)
