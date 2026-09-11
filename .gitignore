@@ -1,0 +1,11 @@
+*.bit
+*.ltx
+*.tgz
+*.tar.gz
+*.csv
+*.png
+*.bin
+daq_bin_results/
+results/
+pseudo_diag_results/
+autossh-*/

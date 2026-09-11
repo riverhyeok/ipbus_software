@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<node>
+
+  <node id="ctrl_reg" address="0x00000000" fwinfo="endpoint;width=3">
+
+    <node id="cmd"         address="0x0" permission="rw"  description="I2C Command Write" />
+    
+    <!-- readout_cfg: 쓰고 읽는(루프백) 것이 모두 가능하므로 읽기/쓰기(Read-Write) -->
+    <node id="readout_cfg" address="0x2" permission="rw" description="Readout Configuration Write/Read" />
+    
+    <!-- stat: 상태와 데이터를 읽어오기만 하므로 읽기 전용(Read-only) -->
+    <node id="stat"        address="0x4" permission="r"  description="I2C Status Read" />
+  </node>
+  
+  <!-- RAM 데이터 및 로그는 FPGA가 기록하고 PC는 읽어가기만 하므로 읽기 전용(Read-only) -->
+  <node id="ram"     mode="incremental" address="0x00040000" size="262144" permission="r" fwinfo="endpoint;width=18" description="256K Main Data DPRAM" />
+  <node id="log_ram" mode="incremental" address="0x00080000" size="4096"   permission="r" fwinfo="endpoint;width=12" description="4096 Error Log RAM" />
+</node>

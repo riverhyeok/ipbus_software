@@ -1,0 +1,5 @@
+<node id="top">
+    <node id="status" address="0x00000001" permission="r" mask="0xFFFFFFFF"/>
+
+    <node id="ram" address="0x00001000" mode="incremental" size="1024" permission="r"/>
+</node>
