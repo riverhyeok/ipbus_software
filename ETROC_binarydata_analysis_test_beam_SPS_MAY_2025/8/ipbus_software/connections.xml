@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+  <connection id="kc705"
+            uri="chtcp-2.0://localhost:10203?target=192.168.200.16:50001"
+            address_table="file://ipbus_example.xml"/>
+</connections>

@@ -1,0 +1,8 @@
+# Compiled Binaries
+analyze_raw_dat
+batch_analyze_dat
+
+# Python Caches
+__pycache__/
+*.pyc
+.venv/
