@@ -2,7 +2,7 @@
 
 The analysis for the testbeam data is located in the `ETROC_binarydata_analysis_test_beam_SPS_MAY_2025` folder.
 
-The software in this repository includes the following files used for DAQ at KNU:
+The following files are edited for DAQ at KNU.:
 - `test_bandwidth.cxx`
 - `ipbus_example.xml`
 - `connections.xml`
